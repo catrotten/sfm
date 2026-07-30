@@ -1,14 +1,14 @@
 every 20 ticks do
 if chest has  >=3888*iron* or *copper* or *lead* or *nickel* or *osmium* or
-*silver* or *uranium* or *tin* or *zinc* or *aluminum* or *gold* then
+*silver* or *uranium* or *tin_dust* or *zinc* or *aluminum* or *gold* or *platinum* then
 input from chest top side
 output  36 *iron* or *copper* or *lead* or *nickel* or *osmium* or
-*silver* or *uranium* or *tin* or *zinc* or *aluminum* or *gold* to each machineleft left side slots 0,1,2,3,4,5,6,7,8
+*silver* or *uranium* or *tin_dust* or *zinc* or *aluminum* or *gold* or *platinum* to each machineleft left side slots 0,1,2,3,4,5,6,7,8
 else if chest has <=3888 *iron* or *copper* or *lead* or *nickel* or *osmium* or
-*silver* or *uranium* or *tin* or *zinc* or *aluminum* or *gold*
+*silver* or *uranium* or *tin_dust* or *zinc* or *aluminum* or *gold* or *platinum*
 then
 input **iron* or *copper* or *lead* or *nickel* or *osmium* or
-*silver* or *uranium* or *tin* or *zinc* or *aluminum* or *gold* from chest top side
+*silver* or *uranium* or *tin_dust* or *zinc* or *aluminum* or *gold* or  *platinum* from chest top side
 output 4 *gold* to each machineleft left side slots 0
 output  4 *iron* to each machineleft left side slots 0
 output  4 *lead* to each machineleft left side slots 0
@@ -16,10 +16,11 @@ output 4 *nickel* to each machineleft left side slots 0
 output  4 *osmium* to each machineleft left side slots 0
 output  4 *silver* to  each machineleft left side slots 0
 output  4 *uranium* to each machineleft left side slots 0
-output  4 *tin* to each machineleft  left side slots 0
+output  4 *tin_dust* to each machineleft  left side slots 0
 output  4 *copper* to each machineleft left side slots 0
 output 4 *zinc* to each machineleft left side slots 0
 output 4 *aluminum* to each machineleft left side slots 0
+output 4 *platinum* to each machineleft left side slots 0
 end
 end
 every 20 ticks do
