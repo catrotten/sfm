@@ -2,8 +2,7 @@ every 20 ticks do
 if dirty_dust_chest has  >=3888*iron* or *copper* or *lead* or *nickel* or *osmium* or
 *silver* or *uranium* or *tin_dust* or *zinc* or *aluminum* or *gold* or *platinum* then
 input from dirty_dust_chest top side
-output  36 *iron* or *copper* or *lead* or *nickel* or *osmium* or
-*silver* or *uranium* or *tin_dust* or *zinc* or *aluminum* or *gold* or *platinum* to each machineleft left side slots 0,1,2,3,4,5,6,7,8
+output  36 *iron* or *copper* or *lead* or *nickel* or *osmium* or *silver* or *uranium* or *tin_dust* or *zinc* or *aluminum* or *gold* or *platinum* to each enrich left side slots 0,1,2,3,4,5,6,7,8
 else if dirty_dust_chest has <=3888 *iron* or *copper* or *lead* or *nickel* or *osmium* or
 *silver* or *uranium* or *tin_dust* or *zinc* or *aluminum* or *gold* or *platinum*
 then
