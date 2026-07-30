@@ -24,6 +24,6 @@ output 4 *platinum* to each enrich side slots 0
 end
 end
 every 20 ticks do
-input from each enrichom side
+input from each enrich side
 output to dust_clean
 end
